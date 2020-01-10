@@ -1,0 +1,7 @@
+E:\desarrollo\2020-01\poo_csharp\Panaderia\Panaderia\bin\Debug\Panaderia.exe.config
+E:\desarrollo\2020-01\poo_csharp\Panaderia\Panaderia\bin\Debug\Panaderia.exe
+E:\desarrollo\2020-01\poo_csharp\Panaderia\Panaderia\bin\Debug\Panaderia.pdb
+E:\desarrollo\2020-01\poo_csharp\Panaderia\Panaderia\obj\Debug\Panaderia.csprojAssemblyReference.cache
+E:\desarrollo\2020-01\poo_csharp\Panaderia\Panaderia\obj\Debug\Panaderia.csproj.CoreCompileInputs.cache
+E:\desarrollo\2020-01\poo_csharp\Panaderia\Panaderia\obj\Debug\Panaderia.exe
+E:\desarrollo\2020-01\poo_csharp\Panaderia\Panaderia\obj\Debug\Panaderia.pdb
