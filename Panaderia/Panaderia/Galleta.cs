@@ -12,5 +12,8 @@ namespace Panaderia
         private string color;
         private float peso;
 
+        public string Nombre { get => nombre; set => nombre = value; }
+        public string Color { get => color; set => color = value; }
+        public float Peso { get => peso; set => peso = value; }
     }
 }
