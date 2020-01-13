@@ -14,7 +14,8 @@ namespace Panaderia
             galleta = new Galleta();
 
             galleta.Nombre = "Galleta de la fortuna";
-            galleta.Peso = 0.71f;
+
+            Console.WriteLine("El color es:"+galleta.Color);
 
             Console.WriteLine("La galleta:"+galleta.Nombre+" pesa:"+galleta.Peso);
             Console.ReadKey();

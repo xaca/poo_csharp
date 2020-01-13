@@ -12,9 +12,14 @@ namespace Panaderia
         private string color;
         private float peso;
 
-        public Galleta(float peso)
+        public Galleta()
         {
 
+        }
+
+        public Galleta(float peso)
+        {
+            Peso = peso;
         }
 
         public string Nombre { get => nombre; set => nombre = value; }
