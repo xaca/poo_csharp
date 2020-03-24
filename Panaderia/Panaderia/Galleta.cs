@@ -15,6 +15,7 @@ namespace Panaderia
         private bool tiene_chispas;
         private int id;
         private float x, y;
+
         public Galleta()
         {
             this.Nombre = "Chip";
@@ -87,9 +88,9 @@ namespace Panaderia
             Console.WriteLine("(x:" + x+",y:"+y +")");
         }
 
-        public void FechaVencimiento()
+        public void FechaDeVencimiento()
         {
-            Console.WriteLine("23/03/2021");
+
         }
 
         public string Nombre { get => nombre; set => nombre = value; }
