@@ -44,8 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Galleta.cs" />
+    <Compile Include="GalletaCuadrada.cs" />
+    <Compile Include="Paquete.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Regalo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
