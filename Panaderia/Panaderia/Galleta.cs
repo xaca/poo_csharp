@@ -61,6 +61,11 @@ namespace Panaderia
             Precio = precio;
         }
 
+        public Galleta(bool tiene_chispas)
+        {
+            Tiene_chispas = tiene_chispas;
+        }
+
         /* Esto es un error, porque la firma del constructor ya existe y no importa
          * si cambiamos el nombre del parametro.
         public Galleta(string x, string y, float peso, float precio)
@@ -71,21 +76,26 @@ namespace Panaderia
             Precio = precio;
         }*/
 
-        public Galleta(bool bandera)
+        public Galleta(bool bandera, string mensaje)
         {
             if (bandera)
             {
-                Console.WriteLine("Galleta de degustaci�n");
+                Console.WriteLine(mensaje);
             }
             else
             {
-                Console.WriteLine("Galleta para la venta");
+                Console.WriteLine(mensaje);
             }
         }
 
         public void ObtenerCoordenadas()
         {
             Console.WriteLine("(x:" + x+",y:"+y +")");
+        }
+
+        public void ObtenerCoordenadas(string prefijo)
+        {
+            Console.WriteLine(prefijo+" (x:" + x + ",y:" + y + ")");
         }
 
         public void FechaDeVencimiento()

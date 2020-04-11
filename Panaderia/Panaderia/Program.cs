@@ -40,6 +40,11 @@ namespace Panaderia
                 Console.WriteLine(galletas[i].Nombre);
             }
 
+            Galleta g5 = new Galleta(true,"Galleta de degustacion");
+
+            g5.ObtenerCoordenadas("Prueba");
+            g5.ObtenerCoordenadas();
+
             Console.ReadKey();
         }
     }
