@@ -4,7 +4,7 @@
 
 Pabras clave: override, virtual, abstract, sobrecarga, sobreescritura
 
-- [http://zetcode.com/lang/csharp/csharp/](Compilar en consola)
+- (http://zetcode.com/lang/csharp/csharp/)[Compilar en consola]
 - [https://www.c-sharpcorner.com/UploadFile/2072a9/virtual-vs-override-vs-new-keywords-in-csharp/]Virtual vs Override vs New Keywords in C#()
 - [https://www.dotnettricks.com/learn/csharp/understanding-virtual-override-and-new-keyword-in-csharp](Understanding virtual, override and new keyword in C#)
 
