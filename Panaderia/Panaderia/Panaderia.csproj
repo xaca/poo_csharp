@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Galleta.cs" />
+    <Compile Include="GalletaHelado.cs" />
     <Compile Include="GalletaRectangular.cs" />
     <Compile Include="Paquete.cs" />
     <Compile Include="Program.cs" />

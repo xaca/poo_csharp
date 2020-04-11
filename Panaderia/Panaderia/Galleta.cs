@@ -18,7 +18,7 @@ namespace Panaderia
 
         public Galleta()
         {
-            this.Nombre = "Chip";
+            //this.Nombre = "Chip";
             this.Precio = 2000.0f;            
             
         }
@@ -90,7 +90,7 @@ namespace Panaderia
 
         public void FechaDeVencimiento()
         {
-
+            Console.WriteLine("23 de abril 20202");
         }
 
         public string Nombre { get => nombre; set => nombre = value; }

@@ -1,4 +1,52 @@
-# poo_csharp
+# Programación y diseño orientado a objetos PDOO
+
+# 05 curso poo Sobrecarga, sobreescritura, clase abstracta
+
+Pabras clave: override, virtual, abstract, sobrecarga, sobreescritura
+
+- [http://zetcode.com/lang/csharp/csharp/](Compilar en consola)
+- [https://www.c-sharpcorner.com/UploadFile/2072a9/virtual-vs-override-vs-new-keywords-in-csharp/]Virtual vs Override vs New Keywords in C#()
+- [https://www.dotnettricks.com/learn/csharp/understanding-virtual-override-and-new-keyword-in-csharp](Understanding virtual, override and new keyword in C#)
+
+# 04 curso poo Herencia
+
+Palabras clave: casting, herencia, polimorfismo, polimorphic
+
+# 03 curso poo Valores por defecto - constructores
+
+- ¿Qué es un constructor?
+- Constructor por defecto
+- Firma de un constructor
+- Palabra reservada this
+- Relaciones entre clases
+- Ejercicios
+
+Palabras clave: class, constructor, constructores, default, defecto, valores, values
+
+# 02 curso poo Clase - Objeto
+
+- ¿Qué es una clase?
+- ¿Qué es un objeto?
+- Operaciones básicas
+- Encapsulamiento
+- Alta cohesión
+- Bajo acoplamiento
+- Ejercicios
+
+Palabras clave: c#, clases, class, csharp, object, objetos
+
+# 01 curso poo Funciones 
+
+- ¿Qué es una función?
+- Firma de la función
+- Contexto de la función
+- Invocación de una función
+- Caja negra
+- Caja blanca
+- Tipos de funciones
+- Ejercicios
+
+Palabras clave: c#, csharp, funciones, function
 
 Ejemplos de clase usando el lenguaje de programación C#
 

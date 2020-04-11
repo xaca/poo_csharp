@@ -9,15 +9,15 @@ namespace Panaderia
     class GalletaRectangular:Galleta
     {
         private bool borde;
-
-        public void Congelar()
-        {
-            Console.WriteLine("Congelando...");
-        }
-
+        
         public void BordeRectangular(bool borde)
         {
             this.borde = borde;
         }
+
+        //public void FechaDeVencimiento()
+        //{
+        //    Console.WriteLine("GR ----");
+        //}
     }
 }

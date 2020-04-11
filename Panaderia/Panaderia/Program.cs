@@ -11,14 +11,34 @@ namespace Panaderia
         static void Main(string[] args)
         {
             //Paquete paquete = new Paquete(12);                     
-            Galleta[] galletas = { new Galleta(), new GalletaRectangular() };
-            Galleta g = new GalletaRectangular();
 
-            g.FechaDeVencimiento();
+            Galleta g2 = new GalletaHelado();
 
-            ((GalletaRectangular)g).Congelar();
+            Galleta g = new GalletaRectangular();//Casting implicito
+            GalletaRectangular gr;
+            //g.BordeRectangular(true); Este metodo es de la hija
+            ((GalletaRectangular)g).BordeRectangular(true);
 
+            gr = ((GalletaRectangular)g);//Casting explicito
+
+            ((GalletaHelado)g2).BordeRectangular(true);
+            ((GalletaHelado)g2).Congelar();
+
+            ((GalletaRectangular)g2).BordeRectangular(true);
+
+            //gr.FechaDeVencimiento();
             
+            /*Galleta g3 = new GalletaRectangular();
+            GalletaHelado g4 = new GalletaHelado();
+            g3.FechaDeVencimiento();
+            g4.FechaDeVencimiento();*/
+
+            Galleta[] galletas = { new Galleta(), new GalletaHelado(), new GalletaRectangular() };
+
+            for (int i = 0; i < galletas.Length; i++)
+            {
+                Console.WriteLine(galletas[i].Nombre);
+            }
 
             Console.ReadKey();
         }
